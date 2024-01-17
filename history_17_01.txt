@@ -1,0 +1,8 @@
+   0 mkdir -p /root/test3/newfolder && touch /root/test3/newfolder/myfile.txt
+   1 df -h >> /root/test3/newfolder/myfile.txt 
+   2 ls -a / | head -9 >> /root/test3/newfolder/myfile.txt 
+   3 cat /etc/group | tail -3 | wc >> /root/test3/newfolder/myfile.txt 
+   4 vi /root/test3/newfolder/myfile.txt 
+   5 history
+   6 history > history_17/01.txt
+   7 history > history_17_01.txt
